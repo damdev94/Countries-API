@@ -1,0 +1,26 @@
+.container {
+    height: 10vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1)
+}
+.container * {
+    margin: 0;
+}
+
+.container h1 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.theme {
+    display: flex;
+    align-items: center;
+}
+
+.theme p {
+    margin-left: 10px;
+    font-weight: bold;
+}

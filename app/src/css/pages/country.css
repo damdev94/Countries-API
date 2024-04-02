@@ -1,0 +1,11 @@
+.country-container {
+    width: 90%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.country-badges {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
