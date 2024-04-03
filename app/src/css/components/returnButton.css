@@ -5,7 +5,7 @@
     align-items: center;
     width: 20%;
     margin-top: 40px;
-    padding: 5px 20px;
+    padding: 5px 20%;
     border-radius: 5px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
@@ -14,4 +14,16 @@
     content: '\f060';
     font-family: "Font Awesome 5 Free";
     font-weight: 600;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+
+@media (min-width: 500px) {
+    .back-btn {
+        padding: 0;
+        width: 10%;
+        height: 30px;
+    }
 }

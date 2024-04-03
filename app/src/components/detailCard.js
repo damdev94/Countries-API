@@ -22,31 +22,51 @@ function DetailCard({
           return <CountryBadge border= {border} key= {index}/>
         })
       }
-      return <div>No borders with another country </div> 
+      return <div style={{marginTop: '7px'}}>No borders with another country </div> 
   }
 
   return (
     <div className='detail-card-container'>
-      <img src={flag} alt='flag'></img>
-      <h1>{countryName}</h1>
+      <div className='coutry-data'>
 
-      <div className='infos'>
-        <p>Native Name: {countryNativeName}</p>
-        <p>Population: {population}</p>
-        <p>Region: {region}</p>
-        <p>Sud Region: {subRegion}</p>
-        <p>Capital: {capital}</p>
-      </div>
+        <div className='flag'>
+          <img src={flag} alt='flag'/>
+        </div>
 
-      <div className='infos'>
-        <p>Top Level Domain: {domain}</p>
-        <p>Currencies: {currencies}</p>
-        <p>Languages: {languages}</p>
-      </div>
 
-      <h2>Border Countries:</h2>
-      <div className='country-badges'>
-        {displayBorders()}
+        <div className='text'>
+
+          <div className='text-container'>
+            
+            <div className='text-1'>
+              <h1>{countryName}</h1>
+              <div className='infos'>
+                <p><strong>Native Name: </strong>{countryNativeName}</p>
+                <p><strong>Population: </strong>{population}</p>
+                <p><strong>Region: </strong>{region}</p>
+                <p><strong>Sub Region: </strong>{subRegion}</p>
+                <p><strong>Capital: </strong>{capital}</p>
+              </div>
+            </div>
+            
+            
+            <div className='text-2'>
+              <p><strong>Top Level Domain: </strong>{domain}</p>
+              <p><strong>Currencies: </strong>{currencies}</p>
+              <p><strong>Languages: </strong>{languages}</p>
+            </div>
+
+          </div>  
+            
+            <div className='borders'>
+              <h2>Border Countries:</h2>
+              <div className='country-badges'>
+                {displayBorders()}
+              </div>
+            </div>
+
+        </div>
+        
       </div>
     </div>
   )

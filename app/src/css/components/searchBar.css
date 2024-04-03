@@ -27,3 +27,11 @@
     opacity: 1;
     color: #000000;
 }
+
+@media (min-width: 500px) {
+    .search-bar-container {
+        height: 50px;
+        margin-top: 40px;
+        width: 30%;
+    }
+   }

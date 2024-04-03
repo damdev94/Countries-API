@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
-    width: 60%;
+    width: 200px;
     background-color: #fff;
     border-radius: 5px;
     height: 50px;
@@ -36,8 +36,13 @@
     position: relative;
     content: "\f054";
     font-family: "Font Awesome 5 Free";
-    left: 70px;
+    left: 40px;
     font-weight: 900;
+    display: inline-block;
+}
+
+.open .main-arrow::after {
+    transform: rotate(90deg);
 }
 
 .back-menu {

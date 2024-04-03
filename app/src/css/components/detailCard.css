@@ -6,3 +6,40 @@
     width: 100%;
     height: 220px;
 }
+
+@media (min-width: 500px) {
+    .coutry-data {
+        display: flex;
+        gap: 50px;
+    }
+
+    .flag img {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .text-container {
+        display: flex;
+    }
+
+    .text-1 h1 {
+        font-size: 24px;
+    }
+
+    .text-2 {
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .borders {
+        display: flex;
+    }
+
+    .borders h2 {
+        font-size: 16px;
+        margin-right: 10px;
+        margin-top: 7px;
+    }
+}
