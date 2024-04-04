@@ -1,10 +1,17 @@
 .badge {
     text-align: center;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     padding: 5px 40px;
     margin: 5px 5px 0 5px;
     width: 20px;
     border-radius: 5px;
+}
+
+/* Dark mode */
+#dark {
+    .badge {
+        background-color: #2B3844;
+    }
 }
 
 @media (min-width: 500px) {

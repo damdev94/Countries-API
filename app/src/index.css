@@ -5,3 +5,9 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+/* Dark mode */
+
+#dark {
+    background-color: #202C36;
+}

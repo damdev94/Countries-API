@@ -4,7 +4,14 @@
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
     height: 420px;
+    transition: 0.3s;
 }
+
+.card-container:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 1px 10px 40px rgba(0, 0, 0, 0.3);;
+}
+
 
 .card-container img {
     width: 100%;
@@ -20,14 +27,21 @@
     color: #000000;
 }
 
+/* Dark mode */
+#dark {
+    .card-container *{
+        color: white;
+    }
+}
+
 @media (min-width: 500px) {
     .card-container {
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 340px;
+        height: 380px;
     }
     .card-container img {
-        height: 130px;
+        height: 150px;
     }
 }

@@ -43,3 +43,10 @@
         margin-top: 7px;
     }
 }
+
+/* Dark mode */
+#dark {
+    .detail-card-container {
+        color: white;
+    }
+}

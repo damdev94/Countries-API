@@ -6,12 +6,18 @@
     background-color: #fff;
     border-radius: 5px;
     height: 50px;
-    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1)
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .region-filter-container * {
+    transition: 0.3s;
     padding: 0;
     margin: 0;
+}
+
+.region-filter-container *:hover {
+    font-weight: bold;
+    color : #244087
 }
 
 .region-filter-container nav {
@@ -71,6 +77,26 @@
     color: #333;
 }
 
-.dropdown-menu:hover .back-menu {
+.back-menu li:hover {
+    background-color: #a9a7a7;
+}
+
+.open .back-menu {
     display: block;
+}
+
+/* Dark mode */
+
+#dark {
+    .region-filter-container{
+        background-color: #2B3844;
+    }
+
+    .region-filter-container * {
+        color: white;
+    }
+
+    .back-menu {
+        background-color: #2B3844;
+    }
 }

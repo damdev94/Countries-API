@@ -8,6 +8,15 @@
 }
 .container * {
     margin: 0;
+    transition: 0.3s;
+}
+
+.container *:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    .moon-icon {
+        transform: rotate(-30deg);
+    }
 }
 
 .container h1 {
@@ -23,4 +32,13 @@
 .theme p {
     margin-left: 10px;
     font-weight: bold;
+}
+
+/* Dark Mode */
+
+#dark {
+    .container {
+        background-color: #2B3844;
+        color: #fff;
+    }
 }

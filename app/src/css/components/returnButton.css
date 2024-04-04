@@ -20,6 +20,14 @@
     transform: scale(1.1);
 }
 
+/* Dark mode */
+#dark {
+    .back-btn {
+        background-color: #2B3844;
+        color: white;
+    }
+}
+
 @media (min-width: 500px) {
     .back-btn {
         padding: 0;

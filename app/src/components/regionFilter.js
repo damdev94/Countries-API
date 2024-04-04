@@ -8,6 +8,7 @@ function RegionFilter({handleSearchCountryByRegion}) {
     setIsOpen(!isOpen);
   };
 
+
   return (
     <div className='region-filter-container'>
       <nav>

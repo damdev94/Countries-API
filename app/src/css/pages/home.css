@@ -4,6 +4,7 @@
     margin: 0 auto;
 }
 
+
 @media (min-width: 500px) {
    .search-bar-and-region-filter {
     display: flex;
@@ -14,7 +15,7 @@
    .countries-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 60px;
     place-items: center;
     margin-top: 50px;
    }
